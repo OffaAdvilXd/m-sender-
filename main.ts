@@ -1,4 +1,4 @@
-basic.showString("M sender")
+basic.showString("Full Sender")
 input.setAccelerometerRange(AcceleratorRange.EightG)
 radio.setGroup(24)
 basic.forever(function () {
