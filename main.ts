@@ -2,6 +2,7 @@ basic.showString("M sender")
 input.setAccelerometerRange(AcceleratorRange.EightG)
 radio.setGroup(24)
 basic.forever(function () {
+    basic.pause(100)
     led.toggle(0, 0)
     radio.sendValue("dir", input.compassHeading())
     radio.sendValue("y", input.acceleration(Dimension.Y))
